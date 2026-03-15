@@ -1,0 +1,14 @@
+# Ignorar carpetas de sistema y compilación
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Ignorar archivos específicos en cualquier carpeta
+**/caches/
+**/*.bin
+**/*.lock
+**/*.class
+**/*.jar
